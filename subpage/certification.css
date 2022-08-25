@@ -1,0 +1,173 @@
+
+
+/*부모요소 스타일*/
+
+
+#banner{
+    width:100%;
+    height:220px;
+    background:linear-gradient(90deg, #745eff 0%, #fe7879 80%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#sub_main{
+    width:100%;
+    height:750px;
+    background-color:#fff;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+/*sub 텍스트들 스타일*/
+
+.sub_title,
+.sub_text1,
+.sub_text2{
+    margin: 0;
+}
+
+
+.sub_title{
+    font-size: 45px;
+    line-height:58px;
+    margin-left:-4px;
+}
+
+
+
+.sub_text2{
+    font-size:19px;
+    color: #fb7e0b;
+    margin-top:15px;
+}
+
+
+
+
+
+
+
+/*banner 자식요소 스타일*/
+
+
+#banner .banner_container{
+    width:100%;
+    height:220px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.banner_sub{
+    color:#fff;
+    margin:3px 0 0 0;
+    line-height:24px;
+    font-weight:300;
+    font-size: 17px;
+}
+
+.banner_title{
+    margin:69px 0 6px 0;
+    display: flex;
+    align-items: center;
+}
+
+.banner_title img{
+    margin:4px 8px 0 0;
+}
+
+.banner_title span{
+    font-size:40px;
+    color:#fff;
+    font-weight:500;
+}
+
+/*banner 안에 이미지 스타일*/
+.banner_img{
+    margin:108px 0 0 80px;
+}
+
+
+
+
+
+/*sub_main 컨테이너박스*/
+
+#sub_main .sub_main_container{
+    width:100%;
+    height:auto;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.sub_main_textarea{
+    margin:-70px 0 0 200px;
+}
+
+
+/*목록 스타일*/
+
+.sub_main_list{
+    width:1100px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+.roundnumber{
+    background-color:#2e2b4b;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    margin-left: 20px;
+}
+.roundnumber .number{
+    color: #fff;
+    line-height: 26px;
+}
+
+.sub_text1{
+    font-size: 18px;
+    font-weight: 400;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+
+
+
+
+/*사업자등록번호*/
+.registration{
+    margin-right: 5px;
+}
+
+/*폼 영역*/
+.formarea{
+    margin-right:-260px;
+}
+
+
+
+
+/*화살표 아이콘 */
+.arrow{
+    margin:10px 0 5px 0;
+}
+
+

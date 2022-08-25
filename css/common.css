@@ -1,0 +1,182 @@
+/*전체 설정*/
+body{
+    margin:0 auto;
+    box-sizing: border-box;
+    font-family:'Noto Sans KR', 'sans-serif';
+    font-size:16px;
+    font-weight:normal;
+    width:100%;
+    height:auto;
+    overflow-x: hidden;
+}
+
+ul{
+    list-style:none;
+}
+
+a{
+    text-decoration: none;
+    color:#2e2b4b;
+}
+
+
+/*header 영역*/
+
+
+#header{
+    width:100%;
+    height:70px;
+    background-color:#fff;
+    border: 1px solid #ebebee;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    z-index: 999;
+}
+
+/*header 자식요소 스타일*/
+
+
+#header .header_container{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+    padding: 0;
+}
+
+#header .header_logo{
+    padding:8px 12px 5px 12px;
+    border-radius: 10px;
+}
+
+/*header gnb메뉴*/
+#header .gnb{
+    margin-left:700px;
+}
+
+#header .gnb_menu{
+    display: inline-block;
+    padding:8px 25px;
+    border-radius: 10px;
+    margin: 0 5px;  
+}
+
+
+
+/*footer 영역*/
+
+#footer{
+    width:100%;
+    height:200px;
+    background-color:#000;
+    position: relative;
+    overflow: hidden;
+}
+
+
+/*footer 자식요소 스타일*/
+
+#footer .footer_container{
+    margin-top:40px;
+    width:100%;
+    height:auto;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.footer_container p{
+   color: #fff;
+   margin-right:250px;
+   line-height: 30px;
+   font-weight: 300;
+}
+
+.footer_containe .footergnb{
+    font-size: 0;
+}
+
+.footergnb li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.footergnb li:nth-child(2){
+   margin-right: 0;
+}
+
+.footergnb li a{
+    display: block;
+    width: 150px;
+    height:50px;
+    text-align: center;
+    line-height:50px;
+    color: #fff;
+}
+
+
+
+
+/*인풋에 기본 셋팅하기*/
+input{
+    background-color:rgba(255, 255, 255, 0.7);
+    border:1px solid rgba(0, 0, 0, 0.2);
+    height:40px;
+    border-radius: 8px;
+    font-size:16px;
+    transition: 0.2s;
+    box-sizing: border-box;
+    padding-left:10px;
+}
+
+/*인풋 태그에 포커스했을때 속성*/
+input:focus{
+    outline: none;
+    background-color:#fff;
+    border:1px solid orange;
+    color: #000;
+}
+
+/*인풋태그 플레이스 홀더*/
+input::placeholder{
+   color:rgba(0, 0, 0, 0.5);
+  
+}
+
+/*네이비 버튼스타일*/
+.navybutton{
+    background-color: #2e2b4b;
+    color: #fff;
+    width:120px;
+    height:40px;
+    border-radius: 8px;
+    display: inline-block;
+    text-align: center;
+    line-height: 36px;
+    margin: 0 25px 0 20px;
+    transition:all 0.3s;
+}
+
+.navybutton:active{
+    background-color:#463e86;
+}
+
+
+
+/* 화면너비가 1024px 일때 */ 
+@media screen and (max-width:1024px){
+
+    #header .gnb{
+        margin-left:370px;
+    }
+
+    .footer_container p{
+        margin-right:18px;
+    }
+
+    .footer_container .footergnb{
+        padding: 0;
+    }
+}

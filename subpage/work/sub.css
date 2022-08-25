@@ -1,0 +1,30 @@
+
+
+/*메인 높이 스타일 변경*/
+#sub_main{
+    height:880px;
+}
+
+
+
+/*텍스트박스 스타일*/
+.sub_main_textarea{
+    margin: 70px 0 0 0;
+    text-align: center;
+}
+
+/*박스 아이템들 스타일*/
+
+.sub_main_phone1{
+    margin-right: 30px;
+}
+
+.sub_main_phone1:nth-child(4){
+    margin-right:0;
+}
+
+/*네비게이션 자식 별도 스타일*/
+
+.nav_parent .gnb_menu:nth-child(5){
+    background-color: rgba(0, 0, 0, 0.08);
+}

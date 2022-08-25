@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>캔디캐시</title>
+    <link href="css/common.css" rel="stylesheet" type="text/css" media="screen"/>
+    <link href="css/main.css" rel="stylesheet" type="text/css" media="screen"/>
+    <link href="css/animation.css" rel="stylesheet" type="text/css" media="screen"/>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/popup.js"></script>
+    <style>
+        @import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+    </style>
+</head>
+
+<script>
+    $(function(){
+        $("#info").click(function(){
+            location.href = "subpage/sales/index.html";
+            return;
+        });
+
+        $("#auth").click(function(){
+            location.href = "subpage/certification_page/index.html";
+            return;
+        });
+        $("#cs").click(function(){
+            location.href = "subpage/cs_page/index.html";
+            return;
+        });
+    });
+</script>
+
+<body>
+
+    <div id="header">
+        <div class="header_container">
+            <a href="index.html" class="header_logo">
+                <img src="images/header_logo.png" alt="header_logo">
+            </a>
+            <nav class="gnb">
+                <a id="info" class="gnb_menu mouse-effect">캔디캐시란?</a>
+                <a id="auth" class="gnb_menu mouse-effect">인증센터</a>
+                <a id="cs" class="gnb_menu mouse-effect">고객센터</a>
+            </nav>
+        </div>
+    </div>
+
+    <div id="main1">
+        <div class="back_img">
+            <div class="main1_container">
+                <div class="popup">
+                    <a id="btn_close" class="popupclose">X</a>
+                    <img class="downicon" src="images/downicon.png" alt="downicon">
+                    <p class="poptext">지금 바로<br>캔디캐시를 다운받으세요!</p>
+                    <p class="poptext1">휴대폰으로 QR코드를 스캔하여<br>캔디캐시 앱을 다운로드합니다.</p>
+                    <div class="qrbox">
+                        <img id="qrcode" src="images/androidQR.png" alt="qr">
+                    </div>
+                    <img class="qrphone" src="images/qrphone.png" alt="qrphone">
+                </div> 
+                <h1 class="main1_title stagger-item">
+                    쉽고 편한 당신의 필수 플랫폼
+                </h1>
+                <h2 class="main1_sub stagger-item">
+                    캔디캐시
+                </h2>
+                <div class="download">
+                    <a id="google" class="download_button mouse-effect stagger-item">
+                        <img src="images/google.png" alt="googleplay_icon">
+                        <span>Google play</span>
+                    </a>
+                    <a id="ios" class="download_button mouse-effect stagger-item">
+                        <img src="images/app.png" alt="appstore_icon">
+                        <span>App store</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="main2">
+        <h1 class="main2_title up-on-scroll">
+                캔디캐시는 소상공인과 함께합니다. 
+        </h1>
+        <p class="main2_sub up-on-scroll">
+                캔디캐시는 소상공인이 언제, 어디서나, 다양한 환경에서<br>
+                경영현황 확인 및 인적자원관리를 할 수 있는 모바일 앱 서비스입니다.
+        </p>
+        <div class="main2_container">
+            <div class="main2_phone up-on-scroll">
+                <img src="images/phone.png" alt="phone_image1">
+            </div>
+            <ul class="main2_list">
+                <li class="main2_liststyle up-on-scroll">
+                    <img src="images/icon/check.png" alt="icon1">
+                    <span>스마트폰만 있으면 언제 어디서나 손쉽게 이용가능</span>
+                </li>
+                <li class="main2_liststyle up-on-scroll">
+                    <img src="images/icon/check.png" alt="icon1">
+                    <span>경영, 장부, 세금, 직원관리 까지 가능한 소상공인 맞춤 시스템</span>
+                </li>
+                <li class="main2_liststyle up-on-scroll">
+                    <img src="images/icon/check.png" alt="icon1">
+                    <span>한 번의 계정등록으로 매출액 및 매출대금 일정 관리 가능</span>
+                </li>
+                <li class="main2_liststyle up-on-scroll">
+                    <img src="images/icon/check.png" alt="icon1">
+                    <span>직원등록부터 근태관리, 전자근로계약체결까지 NON-STOP으로 해결</span>
+                </li>
+            </ul>
+        </div>  
+    </div>
+
+    <div id="main3">
+        <h1 class="main3_title up-on-scroll">
+            쉽고 편한 매출관리 
+        </h1>
+        <p class="main3_sub up-on-scroll">
+            계정 등록 한 번이면 매일의 매출내역을 자동으로 확인할 수 있습니다.
+        </p>
+        <div class="main3_container">
+            <div class="main3_business up-on-scroll">
+                <img src="images/business.png" alt="business">
+            </div>
+            <div class="main3_register up-on-scroll">
+                <img src="images/register.png" alt="register">
+            </div>
+            <div class="main3_phone1 up-on-scroll">
+                <img src="images/phone2.png" alt="main3_phone1">
+            </div>
+            <div class="main3_phone2 up-on-scroll">
+                <img src="images/phone3.png" alt="main3_phone2">
+            </div>
+        </div>        
+    </div>
+
+    <div id="main4">
+        <h1 class="main4_title up-on-scroll">
+            간편하고 다양한기능 
+        </h1>
+        <p class="main4_sub up-on-scroll">
+            카드/배달 앱 매출대금 정산, 비용 영수증 취합, 세금관리, 아르바이트생 관리와 전자 근로계약 체결까지!<br>
+            작은 가게를 운영하는 사장님은 가게 운영 말고도 해야 할 것이 너무 많습니다.<br>
+            캔디캐시와 함께 쉽고 간단하게 시작해 보세요!
+        </p>
+        <div class="main4_container">
+            <div class="main4_list up-on-scroll">
+                <a class="main4_icon1" href="subpage/sales/index.html">
+                    <img src="images/icon/main_icon1.png" alt="main_icon1">
+                </a>
+                <h3 class="list_title">매출관리</h3>
+                <p class="list_sub">다양한 매출을<br>한번에 확인</p>
+            </div>
+            <div class="main4_list up-on-scroll">
+                <a class="main4_icon2" href="subpage/tax/index.html">
+                    <img src="images/icon/main_icon2.png" alt="main_icon2">
+                </a>
+                <h3 class="list_title">세무관리</h3>
+                <p class="list_sub">내 거래내역 기반의<br>예상세액 조회</p>
+            </div>
+            <div class="main4_list up-on-scroll">
+                <a class="main4_icon3" href="subpage/work/index.html">
+                    <img src="images/icon/main_icon3.png" alt="main_icon3">
+                </a>
+                <h3 class="list_title">근로전자계약</h3>
+                <p class="list_sub">모바일로 주고 받는<br>전자근로계약</p>
+            </div>
+            <div class="main4_list up-on-scroll">
+                <a class="main4_icon4" href="subpage/cheat/index.html">
+                    <img src="images/icon/main_icon4.png" alt="main_icon4">
+                </a>
+                <h3 class="list_title">임금명세서</h3>
+                <p class="list_sub">앱으로 보내는<br>임금명세서</p>
+            </div>
+        </div>             
+    </div>
+
+    <div id="footer">
+        <div class="footer_container">
+            <p>㈜ 뉴젠P&P ┃사업자등록번호 831-86-00562┃대표자 : 박필조<br>
+                서울특별시 영등포구 경인로 775 에이스하이테크시티 1동 1009호 ┃문의 : 02-3270-6239<br>
+                ⓒNEWZENPNP Inc. ALL RIGHTS RESERVED
+            </p>
+            <ul class="footergnb">
+                <li>
+                    <a href="subpage/provision_page/index.html">
+                    이용약관
+                    </a>
+                </li>
+                <li>
+                    <a href="subpage/information_page/index.html">
+                    개인정보처리방침
+                    </a>
+                </li>
+            </ul>     
+        </div>
+    </div>
+
+
+    
+</body>
+</html>

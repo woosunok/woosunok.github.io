@@ -1,0 +1,26 @@
+
+
+/*메인 높이 스타일 변경*/
+#main{
+    width: 100%;
+    height:auto;
+    position: relative;
+    overflow: hidden;
+}
+
+
+#main .main_container{
+    position:relative; 
+    width:1076px;
+    margin:0 auto;
+}
+
+.main_container h1{
+    margin:140px 0 60px 0;
+    text-align: center;
+}
+
+
+.main_container p{
+    font-size: 14px;
+}

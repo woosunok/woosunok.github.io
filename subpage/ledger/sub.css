@@ -1,0 +1,12 @@
+
+/*텍스트박스 스타일*/
+
+.sub_main_textarea{
+    margin-top:-100px;
+}
+
+/*네비게이션 자식 별도 스타일*/
+
+.nav_parent .gnb_menu:nth-child(2){
+    background-color: rgba(0, 0, 0, 0.08);
+}

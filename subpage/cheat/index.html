@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>임금명세서</title>
+    <link href="../../css/common.css" rel="stylesheet" type="text/css" media="screen"/>
+    <link href="../../css/animation.css" rel="stylesheet" type="text/css" media="screen"/>
+    <link href="../subcommon.css" rel="stylesheet" type="text/css" media="screen"/>
+    <link href="sub.css" rel="stylesheet" type="text/css" media="screen"/>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    
+    <script src="/js/jquery-3.4.1.min.js"></script>
+    <style>
+        @import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+    </style>
+
+</head>
+<script>
+    $(function(){
+        $("#info").click(function(){
+            location.href = "/subpage/sales/index.html";
+            return;
+        });
+
+        $("#auth").click(function(){
+            location.href = "/subpage/certification_page/index.html";
+            return;
+        });
+        
+        $("#cs").click(function(){
+            location.href = "/subpage/cs_page/index.html";
+            //alert("서비스 준비중입니다.");
+            return;
+        });
+    });
+</script>
+<body>
+
+    <div id="header">
+        <div class="header_container">
+            <a href="../../index.html" class="header_logo">
+                <img src="../images/header_logo.png" alt="header_logo">
+            </a>
+            <nav class="gnb">
+                <a id="info" class="gnb_menu mouse-effect">캔디캐시란?</a>
+                <a id="auth" class="gnb_menu mouse-effect">인증센터</a>
+                <a id="cs" class="gnb_menu mouse-effect">고객센터</a>
+            </nav>
+        </div>
+    </div>
+
+    <div id="banner">
+        <div class="banner_container">
+            <div class="banner_text">
+                <p class="banner_sub">
+                    사장님! 가게운영 하시느라 바쁘시죠?<br>
+                    내 손안의 사업장관리
+                </p>
+                <div class="banner_title">
+                    <img src="../images/candycash_logo.png" alt="candycash_logo">
+                    <span>캔디캐시</span>
+                </div>
+            </div>
+            <div class="banner_img">
+                <img src="../images/bannerimg.png" alt="sub_banner">
+            </div>
+        </div>
+    </div>
+
+
+    <div id="sub_nav">
+        <div class="nav_container">
+            <div class="nav_parent">
+                <a href="../sales/index.html" class="gnb_menu mouse-effect">매출현황</a>
+                <a href="../ledger/index.html" class="gnb_menu mouse-effect">전자장부</a>
+                <a href="../funds/index.html" class="gnb_menu mouse-effect">자금관리</a>
+                <a href="../tax/index.html" class="gnb_menu mouse-effect">세무관리</a>
+                <a href="../work/index.html" class="gnb_menu mouse-effect">근로계약</a>
+                <a href="index.html" class="gnb_menu mouse-effect">임금명세서</a>
+            </div>
+        </div>  
+    </div>
+
+
+    <div id="sub_main">
+        <div class="sub_main_container">
+            <div class="sub_main_phone1 stagger-item">
+                <img src="../images/depositphone1.png" alt="depositphone1">
+            </div>
+            <div class="sub_main_phone1 stagger-item">
+                <img src="../images/statement.jpg" alt="statement">
+            </div> 
+            <div class="sub_main_textarea">
+                <h5 class="sub_text1 stagger-item">
+                        임금명세서 교부 의무화 시행
+                </h5>
+                <h1 class="sub_title stagger-item">
+                        직원 별 암호화된 문서로<br>보안까지 확실하게!
+                </h1>
+                <div class="sub_line stagger-item"></div>
+                <h3 class="sub_text2 stagger-item">
+                        캔디캐시만 있으면 간편하게 작성하여<br>이메일로 전송 가능합니다.
+                </h3>
+            </div>      
+        </div>             
+    </div>
+
+    <div id="footer">
+        <div class="footer_container">
+            <p>㈜ 뉴젠P&P ┃사업자등록번호 831-86-00562┃대표자 : 박필조<br>
+                서울특별시 영등포구 경인로 775 에이스하이테크시티 1동 1009호 ┃문의 : 02-3270-6239<br>
+                ⓒNEWZENPNP Inc. ALL RIGHTS RESERVED
+            </p>
+            <ul class="footergnb">
+                <li>
+                    <a href="../provision_page/index.html">
+                    이용약관
+                    </a>
+                </li>
+                <li>
+                    <a href="../information_page/index.html">
+                    개인정보처리방침
+                    </a>
+                </li>
+            </ul>     
+        </div>
+    </div>
+
+
+    
+</body>
+</html>

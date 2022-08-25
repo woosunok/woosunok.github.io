@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>문의하기</title>
+    <link href="../../css/common.css" rel="stylesheet" type="text/css" media="screen"/>
+    <link href="../../css/animation.css" rel="stylesheet" type="text/css" media="screen"/>
+    <link href="css/ask.css" rel="stylesheet" type="text/css" media="screen"/>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <style>
+        @import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+    </style>
+
+</head>
+<script>
+    $(function(){
+        $("#info").click(function(){
+            location.href = "../sales/index.html";
+            return;
+        });
+
+        $("#auth").click(function(){
+            location.href = "/subpage/certification_page/index.html";
+            return;
+        });
+        $("#cs").click(function(){
+            location.href = "index.html";
+            return;
+        });
+    });
+</script>
+<body>
+
+    <div id="header">
+        <div class="header_container">
+            <a href="../../index.html" class="header_logo">
+                <img src="../images/header_logo.png" alt="header_logo">
+            </a>
+            <nav class="gnb">
+                <a id="info" class="gnb_menu mouse-effect">캔디캐시란?</a>
+                <a id="auth" class="gnb_menu mouse-effect">인증센터</a>
+                <a id="cs" class="gnb_menu mouse-effect">고객센터</a>
+            </nav>
+        </div>
+    </div>
+
+    <div id="banner">
+        <div class="banner_container">
+            <div class="banner_title">
+                <img src="../images/cs_icon.png" alt="cs_icon">
+                <span>고객센터</span>
+            </div>
+        </div>
+    </div>
+
+  
+
+
+    <div id="sub_main">
+        <div class="sub_main_container">
+            
+            <!--공지사항 내용-->
+            <h1 class="sub_title stagger-item">
+                문의하기
+            </h1>
+            <h5 class="sub_text1 stagger-item">
+                문의사항을 남겨주시면 이메일로 답변해드립니다. 답변까지는 영업일 기준 1일이 소요됩니다.
+            </h5>
+            <div id="formarea">
+                <div class="formlist">
+                    <div class="formtitle">
+                        <span>상담분류</span>
+                        <span>*</span>
+                    </div>
+                    <select>
+                        <option>이용문의</option>
+                        <option>서비스오류</option>
+                        <option>건의사항</option>
+                        <option>기타문의</option>
+                    </select>
+                </div>
+                <div class="formlist">
+                    <div class="formtitle">
+                        <span>이메일주소</span>
+                        <span>*</span>
+                    </div>
+                    <input type="email">
+                </div>
+                <div class="formlist formtel">
+                    <div class="formtitle">
+                        <span>연락처(선택)</span>
+                    </div>
+                    <div class="comment">
+                        <input type="tel">
+                        <span>답변완료시 알림톡으로 알려드립니다.</span>
+                    </div>  
+                </div>
+                <div class="formlist">
+                    <div class="formtitle">
+                        <span>회사명</span>
+                        <span>*</span>
+                    </div>
+                    <input type="text">
+                </div>
+                <div class="formlist">
+                    <div class="formtitle">
+                        <span>이름</span>
+                        <span>*</span>
+                    </div>
+                    <input type="text">
+                </div>
+                <div class="formlist">
+                    <div class="formtitle">
+                        <span>제목</span>
+                        <span>*</span>
+                    </div>
+                    <input type="text">
+                </div>
+                <div class="formlist formtext">
+                    <div class="formtitle">
+                        <span>문의내용</span>
+                        <span>*</span>
+                    </div>
+                    <textarea></textarea>
+                </div>
+                <div class="formlist consent">
+                    <input type="checkbox">
+                    <span>답변을 위한 개인 정보 취급에 동의합니다.
+                        수집한 이메일과 전화번호는 답변 전송 외에는 사용되지 않습니다.
+                    </span>
+                </div>
+            </div>
+
+            <div class="buttonbox">
+                <a class="navybutton" href="result.html">문의하기</a>
+            </div>
+
+    </div>
+
+
+
+
+
+
+    <div id="footer">
+        <div class="footer_container">
+            <p>㈜ 뉴젠P&P ┃사업자등록번호 831-86-00562┃대표자 : 박필조<br>
+                서울특별시 영등포구 경인로 775 에이스하이테크시티 1동 1009호 ┃문의 : 02-3270-6239<br>
+                ⓒNEWZENPNP Inc. ALL RIGHTS RESERVED
+            </p>
+            <ul class="footergnb">
+                <li>
+                    <a href="../provision_page/index.html">
+                    이용약관
+                    </a>
+                </li>
+                <li>
+                    <a href="../information_page/index.html">
+                    개인정보처리방침
+                    </a>
+                </li>
+            </ul>     
+        </div>
+    </div>
+
+
+    
+</body>
+</html>
